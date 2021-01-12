@@ -9,6 +9,7 @@ def read_from_hash(hash, key)
    puts hash_to_read[:name]
 end
 
+puts read_from_hash
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
