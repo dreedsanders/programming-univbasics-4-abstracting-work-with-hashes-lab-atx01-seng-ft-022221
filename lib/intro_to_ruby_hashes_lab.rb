@@ -5,7 +5,7 @@ end
 my_hash_creator(:name, "Grace Hopper")
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+   hash_to_read = {:name=>"Steve", 
 end
 
 def update_counting_hash(hash, key)
