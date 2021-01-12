@@ -5,7 +5,7 @@ end
 my_hash_creator(:name, "Grace Hopper")
 
 def read_from_hash(hash, key)
-   hash_to_read = {:name=>"Steve", :occupation=>"student"}
+  {hash=>key}
  end
    read_from_hash(hash_to_read, :name)
 
