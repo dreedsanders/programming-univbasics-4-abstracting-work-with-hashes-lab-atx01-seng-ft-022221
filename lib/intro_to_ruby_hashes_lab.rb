@@ -6,7 +6,7 @@ my_hash_creator(:name, "Grace Hopper")
 
 def read_from_hash(hash, key)
    hash_to_read = {:name=>"Steve", :age=>31}
-   hash_to_read[]
+   hash_to_read[:name]
 end
 
 
